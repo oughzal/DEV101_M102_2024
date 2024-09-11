@@ -10,7 +10,8 @@ Début
 	    // échange
 	    tmp = b 
 	    b = a 
-	    a = tmp 	    
+	    a = tmp 	
+		    
 	    //afficher les variables
 	    ecrire ( "a = ",a," , b = ", b)
 Fin
