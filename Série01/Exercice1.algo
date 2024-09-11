@@ -11,7 +11,7 @@ Début
 	    tmp = b 
 	    b = a 
 	    a = tmp 	
-		    
+		c = a +b  
 	    //afficher les variables
 	    ecrire ( "a = ",a," , b = ", b)
 Fin
