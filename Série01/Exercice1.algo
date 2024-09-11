@@ -1,0 +1,16 @@
+Algorithme Exercice1
+var
+    A,B,tmp : Entier
+Début
+	    //Entrée
+	    ecrire("donner la valeur de a : ") 
+	    lire(a) // a = 6
+	    ecrire("donner la valeur de b : ")
+	    lire(b) // b = 3
+	    // échange
+	    tmp = b 
+	    b = a 
+	    a = tmp 	    
+	    //afficher les variables
+	    ecrire ( "a = ",a," , b = ", b)
+Fin

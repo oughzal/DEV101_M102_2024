@@ -1,0 +1,18 @@
+Algorithme Exercice2
+    Const
+        TVA = 0.2
+    Var
+        PU,HT,TTC : Réel
+        Qt : Entier
+Début
+	    // Entrée
+	    Ecrire("Donner PU : " )
+	    Lire(PU)
+	    Ecrire("Donner Qt : ")
+	    Lire(Qt)
+	    // Traintement
+	   HT = PU*Qt
+	   TTC = HT + HT*TVA
+	    //Sortie
+	    Ecrire("TTC = ", TTC)
+Fin
