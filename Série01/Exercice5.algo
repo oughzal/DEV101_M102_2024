@@ -1,0 +1,17 @@
+Algorithme Exercice5
+    const 
+            pi = 3.14
+    var
+        h,r,v : réel 
+Début
+    //entrée 
+    Ecrire("donnez le rayon : ")
+    lire( r)
+    Ecrire(" donnez la hauteur : " )
+    lire(h)
+    //traitement
+    v = h* pi * r ^2
+    //sortie 
+    ecrire (" le volume est " ,v )
+	
+Fin
