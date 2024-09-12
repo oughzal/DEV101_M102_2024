@@ -1,0 +1,21 @@
+Algorithme Exercice10
+var
+    nb1,S : Réel
+Début
+	    //Entrée
+	    Ecrire("nb1 : ")
+	    Lire(nb1)
+	    S = nb1
+	    Ecrire("nb2 : ")
+	    Lire(nb1)
+	    S = S + nb1
+	    Ecrire("nb3 : ")
+	    Lire(nb1)
+	    S = S + nb1
+	    Ecrire("nb4 : ")
+	    Lire(nb1)
+	    S = S +nb1
+
+	    //Sortie
+	    Ecrire("La somme est ", S)
+Fin
