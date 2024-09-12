@@ -1,0 +1,20 @@
+Algorithme Exercice6
+    Var
+        a,b,s,p,st,d : Réel
+Début
+	    //Entrée
+	    Ecrire("Donner la valeur de a : ")
+	    Lire(a)
+	    Ecrire("Donner la valeur de b : ")
+	    lire(b)
+	    //Traitement
+	    s = a+b
+	    p = a*b
+	    st = a-b
+	    d = a/b // b # 0
+	    //Sortie
+	    Ecrireln("La somme est ",s)
+	    Ecrireln("Le produit est ", p)
+	    Ecrireln("La soustraction est ", st)
+	    Ecrireln("La division est ", d)
+Fin
