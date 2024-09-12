@@ -1,0 +1,24 @@
+Algorithme Exercice8
+    Var
+        H,M,S,D : Entier
+Début
+	    //Entrée
+	    Ecrire(" H : ")
+	    Lire(H)
+	    Ecrire("M : ")
+	    Lire(M)
+	    Ecrire("S : ")
+	    Lire(S)
+	    Ecrire("D : ")
+	    Lire(D)
+	    Ecrire(H,":",M,":",S," + ", D , " sec = ")
+	    //Traitement
+	    S = S + D
+	    M = M + S DIV 60
+	    S = S MOD 60
+	    H = H + M DIV 60
+	    M = M MOD 60
+	    H = H MOD 24 
+	    //Sortie
+	    Ecrire(H,":",M,":",S)
+Fin
