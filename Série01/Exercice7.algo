@@ -1,0 +1,15 @@
+Algorithme Exercice7
+    Var
+        T,H,M,S : Entier
+Début
+	    //Entrée
+	    Ecrire("Donner la durée en secondes : ")
+	    Lire(T)
+	    //Traitement
+	    H = T DIV 3600
+	    T = T MOD 3600 // Le reste (M+S)
+	    M = T DIV 60
+	    S = T MOD 60
+	    //Sortie
+	    Ecrire(H,":",M,":",S)
+Fin
