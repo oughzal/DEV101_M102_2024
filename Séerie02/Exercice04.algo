@@ -1,0 +1,16 @@
+Algorithme Exercice4
+Var c : caractère
+Début
+	    Ecrire("Donner un caractère : ")
+	    lire(c)
+	    
+	    Si c >='a' et c <='z' alors
+	        Ecrire(c, " est une miniscule")
+	    sinonSi c >='A' et c <='Z' alors
+	        Ecrire(c, " est une majuscule")
+	    sinonSi c >='0' et c <='9' alors
+	        Ecrire(c, " est un chiffre")
+	    sinon
+	        Ecrire(c, " est un symbole")
+	    FinSi
+Fin

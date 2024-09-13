@@ -1,0 +1,21 @@
+Algorithme Exercice3
+Var m : Entier
+Début
+	    Ecrire("Donner le N° du mois : ")
+	    Lire(m)  
+	    selon m
+	        1 : Ecrire("Janvier")
+	        2 : Ecrire("Février") 
+	        3 : Ecrire("Mars")
+	        4 : Ecrire("Avril")
+	        5 : Ecrire("Mai")
+	        6 : Ecrire("Juin")
+	        7 : Ecrire("Juillet")
+	        8 : Ecrire("Aout")
+	        9 : Ecrire("Septembre")
+	        10 : Ecrire("Octobre")
+	        11 : Ecrire("Novembre")
+	        12 : Ecrire("Décembre")
+	        sinon : Ecrire("N° du mois non valide")
+	    FinSelon
+Fin
