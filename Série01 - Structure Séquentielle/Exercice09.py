@@ -1,14 +1,11 @@
+from math import sqrt
 # //Entrée
-# Ecrire("Xa : ")
-# Lire(Xa)
-# Ecrire("Ya : ")
-# Lire(Ya)
-# Ecrire("Xb : ")
-# Lire(Xb)
-# Ecrire("Yb : ")
-# Lire(Yb)
+Xa = float(input("Xa : "))
+Ya = float(input("Xa : "))
+Xb = float(input("Xa : "))
+Yb = float(input("Xa : "))
 # //Traitement
-# D = racine((Xa-Xb)^2 + (Ya-Yb)^2)
-# D = ((Xa-Xb)^2 + (Ya-Yb)^2)^0.5
+D = sqrt((Xa-Xb)**2 + (Ya-Yb)**2)
+D = ((Xa-Xb)**2 + (Ya-Yb)**2)**0.5
 # //Sortie
-#     Ecrire("La distance est ", D)
+print("La distance est ", D)
