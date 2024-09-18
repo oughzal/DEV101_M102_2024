@@ -2,9 +2,7 @@ from math import sqrt
 a = float(input("Donner a : "))
 b = float(input("Donner b : "))
 c = float(input("Donner c : "))
-
 d = b**2 - 4*a*c
-
 if d<0:
     print("Pas de solutions dans R")
 elif d==0:
