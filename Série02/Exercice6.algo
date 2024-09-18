@@ -1,0 +1,24 @@
+Algorithme Exercice6
+Var
+    a,b,c,d,x1,x2 : Réel
+Début
+	    Ecrire("Donner a : ")
+	    Lire(a)
+	    Ecrire("Donner b : ")
+	    Lire(b)
+	    Ecrire("Donner c : ")
+	    Lire(c)
+	    
+	    d = b^2 - 4*a*c
+	    
+	    Si d < 0 Alors
+	        Ecrire("Pas de solution")
+	    SinonSi d=0 Alors 
+	        x1 = -b/(2*a)
+	        Ecrire("une seule solution x =", x1)
+	    Sinon
+	        x1 = (-b + racine(d)) /(2*a)
+	        x2 = (-b - racine(d)) /(2*a)
+	        Ecrire("Deux solutions : x1=", x1 , " et x2=", x2)
+	    FinSi
+Fin
