@@ -1,0 +1,44 @@
+Algorithme Exercice8
+   var
+   a,b:reel
+Début
+ ecrire("donn	er le nombre  a : ")
+ lire(a)
+ ecrire("donner le  nombre  b :")
+ lire(b)
+  si a > 0 alors
+      Si b > 0 alors // a>0 et b>0
+          Ecrire("La somme est positive")
+      Sinon // a >0 et b <0
+          Si a > -b alors
+              Ecrire("La somme est positive")
+          sinon
+              Ecrire("La somme est négative")
+          FinSi
+      FinSi
+  Sinon  // a <0
+            Si b < 0 alors // a<0 et b>0
+          Ecrire("La somme est négative")
+      Sinon // a <0 et b > 0
+          Si b > -a alors
+              Ecrire("La somme est positive")
+          sinon
+              Ecrire("La somme est négative")
+          FinSi
+      FinSi
+  FinSi
+  Ecrireln()
+  Si a>0 et b>0 alors
+      Ecrire("La somme est positive")
+  SinonSi a<0 et b<0 alors
+      Ecrire("La somme est négative")
+  SinonSi  a>0 et b<0 et a > -b alors
+      Ecrire("La somme est positive")
+  SinonSi a>0 et b<0 et a< -b alors
+      Ecrire("La somme est négative")
+  SinonSi b>0 et a<0 et b>-a alors
+      Ecrire("La somme est positive")
+  Sinon
+       Ecrire("La somme est négative")
+  FinSi
+Fin

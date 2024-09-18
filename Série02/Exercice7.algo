@@ -1,0 +1,33 @@
+Algorithme Exercice7
+var
+    a,b : Réel
+Début
+	    Ecrire("Donner a : ")
+	    Lire(a)
+	    Ecrire("Donner b : ")
+	    Lire(b)
+	    
+	    Si a > 0 Alors
+	        Si b > 0 Alors
+	            Ecrire("ont même signe")
+	        Sinon
+	            Ecrire("n'ont pas même signe")
+	        FinSi
+	    Sinon // a < 0
+	        Si b < 0 Alors
+	            Ecrire("ont même signe")
+	        Sinon
+	            Ecrire("n'ont pas même signe")
+	        FinSi
+	    FinSi
+	    
+	    Si a>0 et b>0 Alors
+	        Ecrire("ont même signe")
+	    sinonSi a>0 et b<0 Alors
+	        Ecrire("n'ont pas même signe")
+	    SinonSi a<0 et b>0 alors
+	        Ecrire("n'ont pas même signe")
+	    Sinon // a<0 et b<0
+	        Ecrire("ont même signe")
+	    FinSi
+Fin
