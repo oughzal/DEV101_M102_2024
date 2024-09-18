@@ -1,0 +1,28 @@
+Algorithme Exercice5
+var
+      a,b :reel
+Début
+ecrire("entrer a: ")
+lire(a)
+ecrire("entrer b: ")
+lire(b)
+	
+	si a!=0 alors
+	    ecrire("x = " , -b/a)
+	sinonsi b=0 alors
+	     ecrire("la solution est l'ensemble R")
+	sinon 
+	     ecrire("Pas de solution")
+	finsi
+	Ecrireln()
+	
+	Si a = 0 alors
+	    Si b= 0 Alors
+	        Ecrire("R")
+	    Sinon
+	        Ecrire("Vide")
+	    FinSi
+	Sinon // a # 0
+	    Ecrire("x = ", -b/a)
+	FinSi
+Fin
