@@ -1,0 +1,13 @@
+Algorithme Exercice11
+Var
+    A : Entier
+Début
+	    Ecrire("Donner l'année : ")
+	    Lire(A)
+	    
+	    Si A mod 400 = 0 ou (A mod 4 =0 et A mod 100 != 0) Alors
+	        Ecrire(A, " est une anné bissextile")
+	    Sinon
+	        Ecrire(A, " n'est pas une anné bissextile")
+	    FinSi
+Fin

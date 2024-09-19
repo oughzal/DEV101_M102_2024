@@ -1,0 +1,20 @@
+Algorithme Exercice9
+var
+    note:reel 
+Début
+ecrire("donner la note:")
+lire(note)
+si note >=0 et note <1 0 alors 
+  ecrire("redeblent")
+ sinonsi note <12 alors
+ ecrire ("passable")
+sinonsi note <14 alors
+ecrire("AB")
+sinonsi  note <16 alors
+ecrire("bien")
+sinonsi note<=20 alors
+ecrire("tres bien")
+sinon
+ecrire ("erreur")
+finsi	
+Fin
