@@ -1,0 +1,13 @@
+Algorithme Exercice3
+Var
+    n,Un,i : Entier
+Début
+	    Ecrire("Donner la valeur de n : ")
+	    Lire(n)
+	    Un = 1 // Un = U0
+	    pour i de 1 à n faire
+	        Un = 4*Un + 6
+	    FinPour
+	    
+	    Ecrire("U",n, " = ", Un)
+Fin

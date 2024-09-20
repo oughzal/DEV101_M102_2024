@@ -1,0 +1,13 @@
+Algorithme Exercice4
+var
+i,n,s:entier
+Début
+    ecrire("deonner n : ")
+    lire(n)
+    s=0
+    pour i de 1 à n faire
+        s=s+i^2
+    finpour
+    ecrire("la somme =",s)
+	
+Fin
