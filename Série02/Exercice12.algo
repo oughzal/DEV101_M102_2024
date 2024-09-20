@@ -1,0 +1,41 @@
+Algorithme Exercice12
+Var
+    J,M,A : Entier
+Début
+	    Ecrire("Donner le jour : ")
+	    Lire(J)
+	    Ecrire("Donner le mois : ")
+	    Lire(M)
+	    Ecrire("Donner l'année : ")
+	    Lire(A)
+	    
+	    Si M<1 ou M>12 Alors
+	       Ecrire("Date invalide") 
+	    SinonSi J<1 ou J>31 Alors
+	        Ecrire("Date invalide") 
+	    SinonSi J=31 et (M=2 ou M=4 ou M=6 ou M=9 ou M=11) Alors
+	        Ecrire("Date invalide") 
+	    SinonSi J=30 et M=2 Alors
+	        Ecrire("Date invalide") 
+	    SinonSi J=29 et M=2 et Non (A%400=0 ou (A%4=0 et A%100!=0)) Alors
+	        Ecrire("Date invalide") 
+	    Sinon
+	        Ecrire("Date valide")
+	    FinSi
+	    
+	    Ecrireln()
+	    
+	    Si J>=1 et J<=28 et M>0 et M<=12 Alors
+	        Ecrire("Date valide")
+	    SinonSi J=31 et (M=1 ou M=3 ou M=5 ou M=7 ou M=8 ou M=10 ou M=12) Alors
+	        Ecrire("Date valide")
+	    SinonSi J=30 et M!=2 et M>=1 et M<=12 Alors
+	        Ecrire("Date valide")
+	     SinonSi J=29 et M!=2 et M>=1 et M<=12 Alors
+	        Ecrire("Date valide")
+	     SinonSi J=29 et M=2 et (A%400=0 ou (A%4=0 et A%100!=0)) Alors
+	         Ecrire("Date valide")
+	    Sinon
+	        Ecrire("Date invalide")
+	    FinSi
+Fin

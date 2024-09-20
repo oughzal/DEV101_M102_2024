@@ -1,0 +1,29 @@
+Algorithme Exercice2
+var 
+    n:Réel
+Début
+	    
+	    répéter
+	        Ecrire("Donner un nombre : ")
+	        Lire(n)
+	        Si n > 20 Alors
+	            Ecrireln("Plus petit")
+	        FinSi
+	        Si n<10 Alors
+	            Ecrireln("Plus grand")
+	        FinSi
+	    jusqua n>=10 et n<=20
+	    
+	     n = 100	    
+	    TantQue n<10 ou n>20 Faire
+	       Ecrire("Donner un nombre : ")
+	        Lire(n)
+	        Si n > 20 Alors
+	            Ecrireln("Plus petit")
+	        FinSi
+	        Si n<10 Alors
+	            Ecrireln("Plus grand")
+	        FinSi
+	     
+	    FinTantQue
+Fin
