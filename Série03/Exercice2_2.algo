@@ -1,0 +1,11 @@
+Algorithme Execice2_2
+var
+    i,j : Entier
+Début
+	    pour i de 1 à 10 faire  // i =1
+	        pour j de 1 à 10 faire // j=1
+	            Ecrire(i*j,"     ")
+	        FinPour
+	        Ecrireln()
+	    FinPour
+Fin
