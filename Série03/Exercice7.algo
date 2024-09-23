@@ -1,0 +1,21 @@
+Algorithme Exercice7
+var
+    N,i,c : Entier
+Début
+	    Ecrire("Donner un nombre : ")
+	    Lire(N)
+	    
+	    c = 0
+	    pour i de 1 à N Faire
+	        si N mod i = 0 Alors
+	            c = c + 1
+	        FinSi
+	    FinPour
+	    
+	    Si c= 2 Alors
+	        Ecrireln(N, " est premier")
+	    Sinon
+	        Ecrireln(N, " n'est pas premier")
+	    FinSi
+	    
+Fin

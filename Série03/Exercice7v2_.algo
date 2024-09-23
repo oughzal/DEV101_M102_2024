@@ -1,0 +1,13 @@
+	    Ecrire("Donner un nombre : ")
+	    Lire(N)
+	    
+	    i= 2
+	     tantque i<N et N mod i != 0 faire
+	         i = i+ 1
+	     FintantQue
+	     
+	     Si i = N Alors
+	         Ecrire(N, " est premier")
+	     Sinon
+	         Ecrire(N, " n'est pas premier")
+        FinSi
