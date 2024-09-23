@@ -1,0 +1,13 @@
+Algorithme Exercice6
+var
+ i,F,N:entier
+Début
+        ecrire("donner N")
+        lire(N)
+F=1
+pour i de 1 à N faire 
+F=F*i
+finpour
+         ecrire(N,"!=",F)
+	
+Fin
