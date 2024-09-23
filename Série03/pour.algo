@@ -1,0 +1,18 @@
+pour i de VI à VF pas P Faire
+    // traitement à répéter pour chaque itération
+finpour
+
+tant que condition faire
+    // traitement à répéter pour chaque itération
+FinTantQue
+
+si conditon alors
+    // Traitement à exécuter si la condition est vrai
+FinSi
+
+si condition alors
+    // bloc à exécuter si la condition est vraie
+sinon
+    // bloc à exécuter si la condition est fausse
+FinSi
+    

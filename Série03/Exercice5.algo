@@ -1,0 +1,40 @@
+Algorithme Exercice5
+var 
+    i,N,S : Entier
+Début
+	    Ecrire("Entrer N : ")
+	    Lire(N)
+	   // méthode 1 
+	    S = 0
+	    Si N mod 2 = 0   Alors
+	        pour i de 2 à N pas 2 Faire
+	            S = S +i
+	        FinPour
+	    Sinon
+	        pour i de 1 à N pas 2 Faire
+	            S = S +i
+	        FinPour
+	    FinSi
+	    Ecrireln("La somme est ", S)
+	    
+	    // méthode 2
+	    S=0
+	    pour i de 1 à N Faire
+	        Si N mod 2 = 0 et i mod 2 = 0 Alors
+	            S = S + i
+	        FinSi
+	        
+	        Si N mod 2 != 0 et i mod 2 != 0 Alors
+	            S = S + i
+	        FinSi
+	    FinPour
+	    Ecrireln("La somme est ", S)
+	   
+	    // méthode 3
+	   S= 0
+	   pour i de N à 1 pas -2 Faire
+	       S=S+i
+	   FinPour
+	    Ecrireln("La somme est ", S)
+	    Ecrireln(i)
+Fin
