@@ -1,0 +1,14 @@
+Algorithme Exercice9
+var
+    N,S : Entier
+Début
+	    Ecrire("Donner N : ")
+	    Lire(N)
+	    S = 0
+	    tantque N != 0 Faire
+	        S = S + N mod 10
+	        N = N div 10
+	    	FintantQue
+	    	
+	    	Ecrire("La somme est ", S)
+Fin

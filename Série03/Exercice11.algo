@@ -1,0 +1,22 @@
+Algorithme Exercice11
+var
+  n,d,i:entier
+Début
+	ecrire("donner le numerateur : ")
+	lire(n)
+	ecrire("donner le denominateur : ")
+	lire(d)
+	si n < d alors
+	    i=n
+	sinon
+	    i= d
+	FinSi
+		tantque n mod i != 0 ou d mod i != 0 faire
+	        i = i-1
+	fintantque  
+	si d / i = 1 Alors
+        ecrire(n,"/",d,"=",n / i )
+	sinon
+	    ecrire(n,"/",d,"=",n / i ,"/",d / i)
+	FinSi
+Fin

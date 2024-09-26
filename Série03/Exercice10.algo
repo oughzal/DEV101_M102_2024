@@ -1,0 +1,13 @@
+Algorithme exercice10
+var
+n,inv:entier
+Début
+    ecrire("donnez la valeur de n:")
+    lire(n)
+inv=0
+    tantque n!=0 faire
+        inv=inv*10+n%10
+        n=n div 10
+    fintantque
+    ecrire("inverse est ", inv)
+Fin
