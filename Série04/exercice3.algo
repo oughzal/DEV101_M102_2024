@@ -1,0 +1,23 @@
+Algorithme Exercice3
+var 
+   T:Tableau [100] de entier
+   i , n : entier
+   M,S,P:reel
+Début
+  ecrire("donner le nombre des elements :")
+  lire(n)
+        pour  i de 0 à n-1 faire
+	    ecrire(" donner la valeur des elements",i,":")
+	    lire(T[i])
+	    finpour
+	    S=0
+	    P=1
+	    pour i de 0 à n-1 faire
+	    S=S+T[i]
+	    P=P*T[i]
+	    finpour
+	    M=S/n
+	    ecrireln("la somme est ",S)
+	    ecrireln("le produit est ",P)
+	    ecrireln("le moyenne est ",M)
+Fin
