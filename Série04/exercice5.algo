@@ -1,0 +1,20 @@
+Algorithme Exercice5
+    var
+        T : Tableau[100] de entier
+        i,n,X : entier
+Début/
+	    n = 6
+	    T = [11,15,10,18,20,6]
+	    ecrire("Donner x : ")
+	    lire(x)  
+	    // augmenter les élément de X
+	    pour i de 0 à n-1 faire 
+	          T[i] = T[i] + x
+	    finpour 
+	    // afficher le tableau
+	    ecrire("T = [")
+	    pour i de 0 à n-1 faire 
+	          ecrire(T[i],",")
+	    finpour 
+	    ecrire("]")
+Fin
