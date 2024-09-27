@@ -1,0 +1,15 @@
+Algorithme Exercice4
+var
+    T : Tableau[100] de entier
+    i,n,m : entier
+Début
+	    n = 6
+	    T = [11,15,10,18,20,6]
+	  	    m =T[0] 
+	    pour i de 1 à n-1 Faire 
+	        si m < T[i] alors
+	            m = T[i]
+	        FinSi
+	    FinPour	    
+	    ecrire("La max est ",m)   
+Fin
