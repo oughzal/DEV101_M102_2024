@@ -1,0 +1,24 @@
+Algorithme Exercice1
+var
+    T : tableau[10] de Entier
+    i,N : entier
+Début
+        // initialisation
+	    T = [5,5,5,5,5,5,5,5,5,5]    
+	    // remplir le tableau
+	    pour i de 0 à 9 faire
+	        T[i] = 5
+	    FinPour
+	    
+	    // afficher le tableau
+	    ecrire("T = [")
+	    pour i de 0 à 9 faire
+	        si i < 9 alors
+	            ecrire(T[i],",")
+	        sinon
+	            ecrire(T[i])
+	        FinSi
+	    FinPour
+	    ecrireln("]")
+	    
+Fin

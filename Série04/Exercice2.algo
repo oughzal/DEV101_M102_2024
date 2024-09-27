@@ -1,0 +1,25 @@
+*Algorithme Exercice2
+Var
+    T : tableau[100] de entier
+    i,N : entier
+Début
+	    Ecrire("Donner le nombre les éléments du tableau : ")
+	    lire(N)
+	    
+	    pour i de 0 à N-1 Faire
+	        Ecrire("Donner T[",i,"] : ")
+	        lire(T[i])
+	    FinPour
+	    
+	    	    // afficher le tableau
+	    ecrire("T = [")
+	    pour i de 0 à N-1 faire
+	        si i < N-1 alors
+	            ecrire(T[i],",")
+	        sinon
+	            ecrire(T[i])
+	        FinSi
+	    FinPour
+	    ecrireln("]")
+	    
+Fin
