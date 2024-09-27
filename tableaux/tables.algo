@@ -1,0 +1,8 @@
+algorithme calculNotes
+var n1,n2,n3,n4,M : réel
+T : tableau[10] de entier // déclaration d'un tableau
+début
+    T = [1,2,3,4,5,6,7,8,9,10] // initialisation d'un tableau
+    T[0] = 5 // Modifier un élémént du tableau 
+    ecrire(T[2])  
+fin
