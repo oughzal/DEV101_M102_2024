@@ -1,0 +1,20 @@
+Algorithme Exercice6
+var
+    T : tableau[10] de réel
+    i,N,nb : entier
+    M : réel
+Début
+    T = [12,13,10,6,20,16,11,9,7,15]
+    N = 10
+    M=0
+    pour i de 0 à N-1 faire 
+    M=M+T[i]
+    finpour
+    M=M/N
+   ecrireln("moyenne = ",M) 
+    pour i de 0 à N-1 faire
+        si T[i] >= M Alors
+                ecrire(T[i],",")
+        finsi
+    finpour
+Fin
