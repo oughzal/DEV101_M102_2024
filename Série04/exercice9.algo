@@ -1,0 +1,20 @@
+Algorithme Exercice9
+var
+    T :tableau[10] de entier
+    i,v,N: entier
+Début
+    T=[0,1,2,3,4,5,6,7,8,9]
+    N=10
+    ecrire ("donner la valeur de v" )
+    lire (v)
+    i=0
+    tantque i<N et T[i]!=v faire
+        i=i+1
+        Fintantque
+        Si i>=N alors
+            Ecrire ("la position de ", v, " est -1")
+        sinon
+            Ecrire ("la position de ", v, " est ",i)
+        finsi 
+	
+Fin
