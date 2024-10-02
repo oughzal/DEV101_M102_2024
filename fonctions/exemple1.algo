@@ -1,0 +1,21 @@
+Algorithme exemple1
+    var i : entier // variable global
+    procédure etoiles(N : Entier) // p. formels : variables
+     var
+         i : Entier // variable local
+    début
+        pour i de 1 à N faire
+            ecrire("*")
+        FinPour
+        ecrireln()
+    Fin
+// main : programme principal
+Début
+    // appel (invocation)
+    pour i de 1 à 10 faire // i = 1
+        etoiles(i) // P. effectifs (arguments) : valeur, variable, constant, appel au fonction , expression
+    FinPour
+    
+    etoiles("ABC")
+    
+Fin

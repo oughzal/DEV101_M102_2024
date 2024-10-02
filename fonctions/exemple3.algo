@@ -1,0 +1,15 @@
+Algorithme exemple3
+    var m : entier
+    fonction max(a: entier, b :entier) : entier
+    début
+        Si a > b alors
+            retourner a
+        sinon
+            retourner b
+        FinSi
+    fin
+Début
+	    m = max(7,2)
+	    ecrireln(m)
+	    ecrireln(max(11,8))
+Fin

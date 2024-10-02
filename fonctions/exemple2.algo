@@ -1,0 +1,15 @@
+Algorithme exemple
+    var x,y : entier
+    procédure swap(var a : entier,var b : entier)
+        var tmp : entier
+    début
+        tmp = a
+        a = b
+        b = tmp
+    Fin
+Début
+    x = 5
+    y = 2
+    swap(x,y)
+    ecrireln("x:", x, " , y: ", y)
+Fin

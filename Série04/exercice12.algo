@@ -1,0 +1,22 @@
+Algorithme exercice12
+var
+    T:Tableau[5] de entier
+    i,j,N,tmp :entier
+Début
+    T=[1,2,3,4,5]
+    N=5
+	i=0
+	j=N-1
+	Tantque i<j faire
+        tmp=T[i]
+        T[i]=T[j]
+        T[j]=tmp
+        i=i+1
+        j=j-1
+	Fintantque
+    ecrire("T=[")
+    pour i de 0 à N-1 faire
+        ecrire(t[i],",")
+    finpour
+    ecrire("]")
+Fin

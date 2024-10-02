@@ -1,0 +1,20 @@
+Algorithme Exercice10
+    var 
+        T : tableau[10] de entier
+        i,j,N,c : Entier
+Début
+    T = [1,2,3,1,4,5,2,6,7,9]
+    N = 10
+    pour i de 0 à N-1 Faire
+        c = 0
+        pour j de 0 à N -1 Faire
+            Si T[i] = T[j] et i !=j alors
+                c = c + 1
+                j = N 
+            FinSi
+        FinPour
+        si c = 0 alors
+            ecrireln(T[i], ", ")
+        FinSi
+    FinPour
+Fin
