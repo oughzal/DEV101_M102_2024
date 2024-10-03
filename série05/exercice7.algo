@@ -1,0 +1,15 @@
+Algorithme exercice7
+    fonction partieEntiere(x:réel):entier
+        var i : entier
+    début
+        i = 0
+        tantque i <= x faire
+            i = i+1
+        FinTantQue
+        retourner i -1
+    Fin
+Début
+	    ecrireln(partieEntiere(3.87))
+	    ecrireln(partieEntiere(654.7))
+	    ecrireln(partieEntiere(689))
+Fin

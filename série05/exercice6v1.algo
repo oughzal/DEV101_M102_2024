@@ -1,0 +1,38 @@
+Algorithme exercice6
+var 
+    T : Tableau[1000] de entier
+    L,N,i : entier
+    fonction estPremier(N:entier):Booléen
+        var i : entier
+    Début
+        si N=1 ou N=2 alors
+            retourner Vrai
+        FinSi
+        pour i de 2 à N-1 Faire
+            si N mod i = 0 alors
+                retourner Faux
+            FinSi
+        FinPour
+        retourner Vrai
+    Fin
+    procédure listPremiers(N:entier)
+        var i : entier
+    début
+            pour i de 1 à N Faire
+                si estPremier(i) = Vrai alors
+                    T[L] = i
+                    L = L + 1
+                FinSi
+            FinPour
+    Fin
+Début
+	    L = 0
+	    écrire("Donner un nombre : ")
+	    Lire(N)
+	    listPremiers(N)
+	    
+	    pour i de 0 à L-1 Faire
+	        ecrire(T[i],",")
+	    FinPour
+	    
+Fin
