@@ -1,0 +1,8 @@
+Algorithme exercice1
+fonction surface(b : réel, h : réel) : réel
+début
+    retourner (b*h)/2
+Fin
+Début
+	    ecrire(surface(10,20))
+Fin

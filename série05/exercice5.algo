@@ -1,0 +1,20 @@
+Algorithme exercice5
+    fonction estPremier(N:entier):Booléen
+        var i : entier
+    Début
+        si N=1 ou N=2 alors
+            retourner Vrai
+        FinSi
+        pour i de 2 à N-1 Faire
+            si N mod i = 0 alors
+                retourner Faux
+            FinSi
+        FinPour
+        retourner Vrai
+    Fin
+Début
+	    ecrireln(estPremier(2))
+	    ecrireln(estPremier(4))
+	    ecrireln(estPremier(9))
+	    ecrireln(estPremier(13))
+Fin

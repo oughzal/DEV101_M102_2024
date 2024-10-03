@@ -1,0 +1,18 @@
+Algorithme exercice2
+var i : entier
+procédure tableMultiplication(N: entier)
+var i:entier
+début
+    ecrireln("la table de multiplication de ",N,": ")
+    pour i de 1 à 10 faire
+    ecrireln(N,"*",i,"=",N*i)
+    finpour
+fin
+Début
+    TableMultiplication(8)
+    TableMultiplication(5)
+    
+    pour i de 1 à 10 Faire
+        TableMultiplication(i)
+    FinPour
+Fin

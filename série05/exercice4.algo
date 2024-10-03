@@ -1,0 +1,14 @@
+Algorithme exercice4
+    fonction estPair(N :entier) : booléen
+    début
+        // Si N mod 2 = 0 alors
+        //     retourner Vrai
+        // Sinon
+        //     retourner Faux
+        // FinSi
+        retourner N mod 2 = 0
+    Fin
+Début
+	ecrireln(estPair(4))
+	ecrireln(estPair(3))
+Fin

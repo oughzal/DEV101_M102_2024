@@ -1,0 +1,13 @@
+Algorithme exercice3
+    fonction m(a:entier,b:entier):entier
+    var i,s:entier
+    début
+        s =0
+        pour i de 1 à b faire
+        s =s+a
+        finpour
+        retourner s 
+    fin
+Début
+	ecrire (m(3,4) )
+Fin
