@@ -1,0 +1,20 @@
+Algorithme exercice11
+    var
+        T : tableau[100] de entier
+        N : entier
+    fonction maxTab(var T : tableau[100] de entier, N : entier) : entier
+    var m,i : entier
+    début
+        m = T[0]
+        pour i de 0 à N-1 Faire
+            Si T[i] > m alors
+                m = T[i]
+            FinSi
+        FinPour
+        retourner m
+    Fin
+Début
+    T =[1,12,4,5,3,7,8,0]
+    N = 8
+    ecrireln(maxTab(T,N))
+Fin

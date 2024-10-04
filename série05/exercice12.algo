@@ -1,0 +1,61 @@
+Algorithme exercice12
+    Var 
+        T : tableau[100] de entier
+        N : entier
+    procedure remplir(var T : Tableau[100] de entier )
+    var i : entier
+    début
+        ecrire("Donner N : ")
+        Lire(N)
+        pour i de 0 à N-1 Faire
+            ecrire("Donner T[",i,"] : ")
+            Lire(T[i])
+        FinPour
+    Fin
+    procedure trierCroissant(var T : Tableau[100] de entier )
+        var i,j,tmp : entier
+    début
+        pour i de 0 à N-2 Faire
+            pour j de i+1 à N-1 Faire
+                Si T[i] > T[j] alors
+                        tmp = T[i]
+                        T[i] = T[j]
+                        T[j] = tmp
+                FinSi
+            FinPour
+        FinPour
+    Fin
+        procedure trierDecroissant(var T : Tableau[100] de entier )
+        var i,j,tmp : entier
+    début
+        pour i de 0 à N-2 Faire
+            pour j de i+1 à N-1 Faire
+                Si T[i] < T[j] alors
+                        tmp = T[i]
+                        T[i] = T[j]
+                        T[j] = tmp
+                FinSi
+            FinPour
+        FinPour
+    Fin
+    procedure afficherTab(var T : Tableau[100] de entier )
+    var i : entier
+    début 
+        Ecrire("T =[")
+        pour i de 0 à N-1 Faire
+            Ecrire(T[i])
+            si i < N-1 alors
+                ecrire(",")
+            FinSi
+        FinPour
+        Ecrireln("]")
+    Fin
+Début
+	    remplir(T)
+	    afficherTab(T)
+	    trierCroissant(T)
+	    afficherTab(T)
+	    trierdecroissant(T)
+	    afficherTab(T)
+	    
+Fin

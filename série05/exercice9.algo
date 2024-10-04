@@ -1,0 +1,30 @@
+Algorithme exercice9
+    fonction estBissextile(A : entier) : booleen
+    Début
+        Retourner  A mod 400 = 0 ou (A mod 4 = 0 et A mod 100 != 0)
+    Fin
+
+    fonction dateValide(J : entier, M: entier, A : entier) : booleen
+
+    début
+        Si j<1 ou j> 31 ou m<1 ou m>12  Alors
+            retourner Faux
+        SinonSi j=31 et (m=2 ou m=4 ou m=6 ou m=9 ou m= 11)  Alors
+            retourner Faux
+        sinonsi j=30 et m=2 alors
+            retourner Faux
+        sinonsi j=29 et m=2 et non estBissextile(A) alors
+            retourner Faux
+        sinon
+            retourner Vrai
+        FinSi
+    Fin
+Début
+	ecrireln(datevalide(31,4,20))
+	ecrireln(datevalide(4,10,20))
+	ecrireln(datevalide(44,99,20))
+	ecrireln(datevalide(31,4,20))
+	ecrireln(datevalide(29,2,2024))
+	ecrireln(datevalide(29,2,2025))
+	
+Fin

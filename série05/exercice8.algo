@@ -1,0 +1,16 @@
+Algorithme exercice8
+    Var A : entier
+    fonction estBissextile(A : entier) : booleen // isYeap()
+    Début
+        Retourner  A mod 400 = 0 ou (A mod 4 = 0 et A mod 100 != 0)
+        /* Si A mod 400 = 0 ou (A mod 4 = 0 et A mod 100 != 0) Alors
+                Retourner Vrai
+        FinSi
+        Retourner Faux */
+    Fin
+
+Début
+    Ecrireln("Donner l'année : ")
+    Lire(A)
+    Ecrire(Bissextile(A))
+Fin

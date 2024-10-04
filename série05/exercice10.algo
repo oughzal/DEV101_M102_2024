@@ -1,0 +1,16 @@
+Algorithme exercice10
+    fonction isPalendrom(s : chaîne) : booleen
+    var i, j : entier
+    début
+        i = 0
+        j = long(s) -1
+        
+        tantque i <= j et s[i]=s[j] faire
+            i = i + 1
+            j = j -1
+        FinTantQue
+        retourner i > j 
+    Fin
+Début
+	    ecrireln(isPalendrom("ABFDBA"))
+Fin
