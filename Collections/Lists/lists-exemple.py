@@ -76,5 +76,5 @@ notes = [15, 18, 12, 20, 14, 16, 18, 12, 17, 19]
 # TODO 22 : Vérifiez s'il y a au moins une note supérieure à 18.
 
 from functools import reduce
-# TODO 23 : Calculez la somme cumulative des carés de toutes les notes pour obtenir un total.
+# TODO 23 : Calculez la somme cumulative des carrés de toutes les notes pour obtenir un total.
 
