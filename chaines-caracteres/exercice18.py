@@ -1,9 +1,13 @@
 # Exercice 18
-def etoiles(s : str)-> str:
-    # return "*".join(list(s))
-    result = ""
+def nbMinMaj(s :str)->tuple:
+    nbMin =0
+    nbMaj = 0
     for c in s:
-        result += c + "*"
-    return result[:-1] 
-print(etoiles("DEV101"))
-print(f"DEV101")
+        if 'a'<= c <= 'z':
+            nbMin += 1
+        if 'A'<= c <= 'Z':
+            nbMaj += 1
+    return (nbMin,nbMaj)
+
+print(nbMinMaj("DeV PYtHoN"))
+        
