@@ -1,3 +1,4 @@
+# Exercice 6
 def deleteSpace(ch:str)->str:
     # return " ".join(ch.split())
     i =0
@@ -9,9 +10,6 @@ def deleteSpace(ch:str)->str:
         else:
             s += " "
             while ch[i] == " ":
-                i += 1
-        
+                i += 1 
     return s
-
-
 print(deleteSpace("DEV    101  Algo     python"))

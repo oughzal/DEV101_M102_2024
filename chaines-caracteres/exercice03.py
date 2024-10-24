@@ -1,3 +1,4 @@
+# Exercice 3
 def isDigit(ch:str)->bool :
     # return ch.isdigit()
     for c in ch:

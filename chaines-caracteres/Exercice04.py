@@ -1,3 +1,4 @@
+# Exercice 4
 def strip(ch:str)->str:
     # return ch.lstrip()
     i = 0

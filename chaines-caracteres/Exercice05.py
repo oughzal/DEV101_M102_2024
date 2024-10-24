@@ -1,3 +1,4 @@
+# Exercice 5
 def alpha(ch : str) -> str:
     s = ""
     for c in ch:

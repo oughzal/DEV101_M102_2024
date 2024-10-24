@@ -1,3 +1,4 @@
+# Exercice 7
 def intersection(ch1:str,ch2:str)->list:
     s1 = set(ch1)
     s2 = set(ch2)
