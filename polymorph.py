@@ -1,15 +1,11 @@
-from multipledispatch import dispatch
-
-@dispatch(int,int) 
-def test(a,b): return f"int {a}, {b}"
-@dispatch(float,float) 
-def test(a,b): return f"float {a}, {b}"
-@dispatch(str,str) 
-def test(a,b): return f"str {a}, {b}"
-@dispatch(object,object) 
-def test(a,b): return f"autre {a}, {b}"
-
-print(test(1,2))
-print(test(1.0,2.0))
-print(test("1.0","2.0"))
-print(test(1,"2.0"))
+# donner la solution de 136. Single Number de LeetCode
+# https://leetcode.com/problems/single-number/
+# date: 2020-01-18
+# auteur: l'etudiant
+from typing import List
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        res = 0
+        for num in nums:
+            res ^= num
+        return res
