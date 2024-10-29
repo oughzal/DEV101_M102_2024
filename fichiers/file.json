@@ -1,0 +1,17 @@
+[
+    {
+        "nom":"jack",
+        "prenom":"john",
+        "age":25
+    },
+    {
+        "nom":"doe",
+        "prenom":"john",
+        "age":30
+    },
+    {
+        "nom":"doe",
+        "prenom":"jane",
+        "age":28
+    }
+]

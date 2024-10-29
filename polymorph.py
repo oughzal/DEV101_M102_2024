@@ -1,11 +1,8 @@
-# donner la solution de 136. Single Number de LeetCode
-# https://leetcode.com/problems/single-number/
-# date: 2020-01-18
-# auteur: l'etudiant
-from typing import List
-class Solution:
-    def singleNumber(self, nums: List[int]) -> int:
-        res = 0
-        for num in nums:
-            res ^= num
-        return res
+# Lire un fichier binaire (par exemple, une image)
+with open("image.png", "rb") as fichier_binaire:
+    contenu_binaire = fichier_binaire.read()
+    print(contenu_binaire)
+
+# Écrire dans un fichier binaire
+with open("nouvelle_image.png", "wb") as fichier_binaire:
+    fichier_binaire.write(contenu_binaire)

@@ -1,0 +1,13 @@
+Les vidéos vous permettent de faire passer votre message de façon convaincante.
+Quand vous cliquez sur Vidéo en ligne
+vous pouvez coller le code incorporé de la vidéo que vous souhaitez ajouter.
+Vous pouvez également taper un mot-clé pour rechercher en ligne la vidéo qui convient le mieux à votre document.
+Pour donner un aspect professionnel à votre document, Word offre des conceptions d’en-tête, de pied de page, de page de garde et de zone de texte qui se complètent mutuellement.
+Vous pouvez par exemple ajouter une page de garde, un en-tête et une barre latérale identiques.
+Cliquez sur Insérer et sélectionnez les éléments de votre choix dans les différentes galeries.
+Les thèmes et les styles vous permettent également de structurer votre document.
+Quand vous cliquez sur Conception et sélectionnez un nouveau thème, les images
+graphiques et SmartArt sont modifiés pour correspondre au nouveau thème choisi.
+Quand vous appliquez des styles, les titres changent pour refléter le nouveau thème.
+Gagnez du temps dans Word grâce aux nouveaux boutons qui s'affichent quand vous en avez besoin.
+
